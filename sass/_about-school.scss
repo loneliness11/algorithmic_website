@@ -1,0 +1,157 @@
+.about-school {
+  height: 705px;
+  &__title {
+    color: #1D1130;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px; /* 117.857% */
+  }
+  &__bg {
+    position: absolute;
+    z-index: 0;
+    margin-top: 45px;
+  }
+}
+.card1 {
+  position: relative;
+  z-index: 2;
+  width: 292px;
+  height: 110px;
+  border-radius: 15px;
+  background: #F8F8F8;
+  margin-left: 701px;
+  margin-top: 21px;
+  &__info {
+    position: relative;
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 110px;
+    padding-top: 13px;
+    & div {
+      font-size: 20px;
+    }
+  }
+  &__info::before {
+    content: url('../images/about-school1.svg');
+    position: absolute;
+    left: 26px;
+    top: 28px;
+  }
+  &__info::after {
+    content: url('../images/plus.svg');
+    position: absolute;
+    right: 22px;
+    top: -11px
+  }
+}
+.card2 {
+  position: relative;
+  z-index: 2;
+  width: 230px;
+  height: 110px;
+  border-radius: 15px;
+  background: #F8F8F8;
+  top: -42px;
+  margin-left: 330px;
+  &__info {
+    position: relative;
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 110px;
+    padding-top: 13px;
+    & div {
+      font-size: 20px;
+    }
+  }
+  &__info::before {
+    content: url('../images/about-school2.svg');
+    position: absolute;
+    left: 19px;
+    top: 24px;
+  }
+  &__info::after {
+    content: url('../images/plus.svg');
+    position: absolute;
+    right: 15px;
+    top: -8px;
+  }
+}
+.card3 {
+  position: relative;
+  z-index: 2;
+  width: 223px;
+  height: 110px;
+  border-radius: 15px;
+  background: #F8F8F8;
+  margin-left: 599px;
+  top: 20px;
+  &__info {
+    position: relative;
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 110px;
+    padding-top: 13px;
+    & div {
+      font-size: 20px;
+    }
+  }
+  &__info::before {
+    content: url('../images/about-school3.svg');
+    position: absolute;
+    left: 17px;
+    top: 10px;
+  }
+  &__info::after {
+    content: url('../images/plus.svg');
+    position: absolute;
+    right: 15px;
+    top: -8px;
+  }
+}
+.cards {
+  display: flex;
+  margin-left: 101px;
+  margin-top: 81px;
+}
+.card {
+  position: relative;
+  z-index: 2;
+  border-radius: 15px;
+  background: #F8F8F8;
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.card11 {
+  padding: 46px 50px 45px 140px;
+  margin-right: 40px;
+}
+.card11::before {
+  content: url('../images/gerb.png');
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.card22 {
+  padding: 32px 81px 31px 140px;
+}
+.card22::before {
+  content: url('../images/sk.png');
+  position: absolute;
+  left: 30px;
+  top: 25px;
+}

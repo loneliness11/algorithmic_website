@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+h2, p {
+  margin: 0;
+  padding: 0;
+}
+@import 'header';
+@import 'advantages';
+@import 'about-school';
+@import 'courses';
+@import 'prices';
+@import 'teachers';
+@import 'reviews';
+@import 'variables';
+@import 'classes';

@@ -1,0 +1,169 @@
+.header{
+  background-color: #f5f5f5;
+  &__head { 
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__logo-and-city {
+    display: flex;
+  }
+  &__logo {
+    margin-top: -21px;
+    position: relative;
+    right: 50px;
+  }
+  &__city {
+    position: relative;
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  &__city::before {
+    content: url('../images/Logo-short.svg');
+    position: absolute;
+    left: -30px;
+    top: -3px;
+  }
+  &__button {
+    position: relative;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    width: 235px;
+    height: 50px;
+    padding: 13px;
+    padding-left: 40px;
+    border-radius: 60px;
+    border: 2px solid #8D30B9;
+    background: #8D30B9;
+    margin-top: -14px;
+    margin-left: 25px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  &__button::before {
+    content: url('../images/User.png');
+    position: absolute;
+    left: 20px;
+    top: 12px;
+  }
+  &__number {
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 23px;
+    margin-top: -1px;
+  }
+}
+.telegram, .whatsapp {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.whatsapp {
+  margin-left: 15px;
+}
+.nav-menu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-left: 205px;
+  margin-bottom: 106px;
+  margin-top: -90px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 52px;
+}
+.header__title {
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90px; /* 121.622% */
+}
+.header__main {
+  position: relative;
+}
+.header__main-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+.header__main-descr {
+  color: #1D1130;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px; /* 170% */
+  width: 619px;
+}
+.four-photo {
+  margin-right: 17px;
+}
+.header__main-wrapper2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 110px;
+}
+.header__main-button {
+  border-radius: 60px;
+  background: #37D259;
+  display: inline-flex;
+  min-width: 250px;
+  min-height: 70px;
+  max-height: 70px;
+  padding: 23px 40px;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 160px;
+  cursor: pointer;
+}
+.header__main-descr2 {
+  position: relative;
+  width: 230px;
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 171.429% */
+}
+.header__main-descr2::before {
+  content: url('../images/хуеботина.png');
+  position: absolute;
+  top: -50px;
+  left: -196px;
+  pointer-events: none;
+}
+.student {
+// 380
+  position: absolute;
+  top: -167px; 
+  right: -380px;
+  pointer-events: none;
+}

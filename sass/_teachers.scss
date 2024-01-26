@@ -1,0 +1,155 @@
+.teachers__swiper {
+  position: relative;
+  height: 482px;
+  .slider2-button {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: transparent;
+    &-next {
+      right: 20px;
+      background-image: url("../images/Arrow-right2.svg");
+    }
+    &-prev {
+      right: 130px;
+      background-image: url("../images/Arrow-left2.svg");
+    }
+  }
+}
+.teachers {
+  padding-bottom: 80px;
+  &__title {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 38px;
+  }
+  &-wrapper {
+    border-radius: 25px;
+    position: relative;
+    width: 561px;
+    height: 300px;
+    background: #f2e5ff;
+    padding-left: 290px;
+    padding-top: 37px;
+    z-index: 5;
+    &__title {
+      color: #1d1130;
+      font-family: Montserrat;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 40px; /* 133.333% */
+    }
+    &__subtitle {
+      position: relative;
+      margin-top: 12px;
+      color: #1d1130;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      margin-bottom: 12px;
+      & span {
+        padding-top: 5px;
+      }
+    }
+    &__img {
+      position: absolute;
+      right: 44px;
+      z-index: 5;
+    }
+    &__text {
+      position: relative;
+      z-index: 3;
+      color: #8d30b9;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 26px; /* 130% */
+      margin-left: 30px;
+      margin-top: 30px;
+      z-index: 6;
+    }
+  }
+  &-items {
+    display: flex;
+    gap: 31px;
+    margin-bottom: 26px;
+  }
+}
+.teachers1::before {
+  content: "";
+  background-image: url("../images/teacher1.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
+  border-radius: 25px;
+}
+.teachers2 {
+  background: #FEF7DD;
+}
+.teachers2::before {
+  content: "";
+  background-image: url("../images/teacher2.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
+  border-radius: 25px;
+}
+.teachers-purple {
+  color: #FFAD3A;
+}
+.teachers1 {
+  position: relative;
+}
+.teachers1-icon::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/teacher_icon1.svg');
+  background-repeat: no-repeat;
+  top: 90px;
+  bottom: 0;
+  left: 424px;
+  right: 0;
+  z-index: 5;
+}
+.teachers2-icon::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/teacher_icon2.svg');
+  background-repeat: no-repeat;
+  top: 101px;
+  bottom: 0;
+  left: 447px;
+  right: 0;
+  z-index: 5;
+}
+.teachers__button {
+  border-radius: 60px;
+  border: 2px solid #8D30B9;
+  padding: 15px 30px;
+  color: #8D30B9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+}

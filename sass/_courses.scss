@@ -1,0 +1,121 @@
+.courses {
+  &__title {
+    color: #1D1130;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 126px;
+  }
+  &__subtitle {
+    color: #1D1130;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px; /* 170% */
+    margin-top: 30px;
+  }
+}
+.courses__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+}
+.courses__item {
+  width: 375px;
+  height: 450px;
+  background: #F8F8F8;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+}
+.item__years {
+  padding-top: 156px;
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.item__title {
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 127.273% */
+}
+.item__subtitle {
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 15px;
+}
+.item__more {
+  position: relative;
+  display: block;
+  color: #1D1130;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  margin-bottom: 27px;
+}
+.item__more::after {
+  content: url('../images/Line.svg');
+  position: absolute;
+  top: 7px;
+  left: 0px;
+}
+.item__button {
+  border-radius: 60px;
+  border: 2px solid #8D30B9;
+  padding: 15px 30px;
+  color: #8D30B9;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  background-color: transparent;
+}
+.courses__item1 {
+  background: url('../images/courses1.png');
+}
+.courses__item2 {
+  background: url('../images/courses2.png');
+}
+.courses__item3 {
+  background: url('../images/courses3.png');
+}
+.courses__item4 {
+  background: url('../images/courses4.png');
+}
+.courses__item5 {
+  background: url('../images/courses5.png');
+}
+.courses__item6 {
+  background: url('../images/courses6.png');
+}
+.courses__item7 {
+  background: url('../images/courses7.png');
+}
+.courses__item8 {
+  background: url('../images/courses8.png');
+}
+.courses__item9 {
+  background: url('../images/courses9.png');
+}
+.courses__item10 {
+  background: url('../images/courses10.png');
+}
+.courses__item11 {
+  background: url('../images/courses11.png');
+}

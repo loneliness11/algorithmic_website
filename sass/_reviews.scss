@@ -1,0 +1,238 @@
+.reviews {
+  padding-top: 144px;
+  padding-bottom: 31px;
+  background-color: #f8f8f8;
+  &__swiper {
+    height: 518px;
+    margin-bottom: 60px;
+  }
+  &__title {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 51px;
+  }
+}
+.slider3-button {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  &-next {
+    right: 20px;
+    background-image: url("../images/Arrow-right.svg");
+  }
+  &-prev {
+    right: 130px;
+    background-image: url("../images/Arrow-left.svg");
+  }
+}
+.reviews-items {
+  display: flex;
+  gap: 20px;
+}
+.reviews-item {
+  width: 275px;
+  height: 403px;
+  background-image: url("../images/reviews1.png");
+  padding-top: 215px;
+  padding-left: 26px;
+  &-2 {
+    background-image: url("../images/reviews2.png");
+  }
+  &-3 {
+    padding-top: 165px;
+    padding-left: 0;
+    background-image: url("../images/reviews3.png");
+  }
+  &-4 {
+    background-image: url("../images/reviews4.png");
+  }
+  &__stars {
+    margin-bottom: 10px;
+  }
+  &__name {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  &__descr {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 157.143% */
+    width: 220px;
+    margin-bottom: 15px;
+  }
+  &__review {
+    position: relative;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    &::after {
+      content: url("../images/Line2.svg");
+      position: absolute;
+      top: 8px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  &__video-review {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 27px;
+  }
+  &__img3 {
+    margin-left: 93px;
+    margin-bottom: 108px;
+  }
+}
+.reviews {
+  &__title2 {
+    color: #1d1130;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 130.435% */
+    margin-bottom: 16px;
+    .green {
+      color: #37d259;
+    }
+    .red {
+      color: #f44c75;
+    }
+  }
+}
+.reviews-items2 {
+  display: flex;
+  gap: 240px;
+  margin-left: 301px;
+  margin-bottom: 35px;
+}
+.reviews-item2 {
+  display: flex;
+  flex-direction: column;
+  &__stars {
+    width: 159px;
+    height: 27px;
+    margin-bottom: 16px;
+  }
+  &__yandex {
+    width: 160px;
+    height: 62px;
+  }
+  &__2gis {
+    width: 160px;
+    height: 53px;
+  }
+  &__grade {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+.reviews-item3 {
+  width: 560px;
+  height: 300px;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  &__name {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  &__yandex {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: underline;
+    margin-left: 20px;
+  }
+  &__date {
+    color: #939393;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  &__descr {
+    color: #1D1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4; /* Ограничивает количество строк, после которых будет добавлено многоточие */
+    /* Дополнительные свойства для поддержки Firefox */
+    display: -moz-box;
+    -moz-box-orient: vertical;
+  }
+  &__link {
+    text-decoration: none;
+    color: #8D30B9;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    display: none;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+  }
+  &__text {
+    position: relative;
+  }
+}
+.reviews-items3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 40px;
+}
+.reviews__btn {
+  padding: 15px 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}

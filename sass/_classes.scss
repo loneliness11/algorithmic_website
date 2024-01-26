@@ -1,0 +1,72 @@
+.classes {
+  padding-top: 136px;
+  padding-bottom: 80px;
+  &__title {
+    margin-bottom: 33px;
+  }
+  &__podlozka {
+    background-color: #f8f8f8;
+    height: 70px;
+    border-radius: 50px;
+    width: 500px;
+    padding: 7px;
+    margin-bottom: 40px;
+  }
+}
+.active-button {
+  border-radius: 50px;
+  background-color: #8d30b9;
+  padding: 18px 30px;
+  color: #f8f8f8;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+}
+.inactive-button {
+  background-color: transparent;
+  padding: 18px 30px;
+  color: #8d30b9;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+.span-2-rows {
+  vertical-align: top;
+  rowspan: 2;
+}
+
+.span-2-columns {
+  horizontal-align: center;
+  colspan: 2;
+}
+
+.span-3-columns {
+  horizontal-align: center;
+  colspan: 3;
+}
+
+.span-4-columns {
+  horizontal-align: center;
+  colspan: 4;
+}
+
+.span-2-3-columns {
+  horizontal-align: center;
+  colspan: 2;
+}
+
+.span-2-3-4-columns {
+  horizontal-align: center;
+  colspan: 3;
+}
