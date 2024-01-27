@@ -1,0 +1,56 @@
+.choose-course {
+  background-image: url("../images/choouse-group.png");
+  padding-top: 103px;
+  padding-bottom: 96px;
+  &__title {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 76px; /* 115.152% */
+    margin-bottom: 57px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  &__form {
+    width: 460px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    color: #939393;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 30px;
+    &:nth-child(1) {
+      margin-bottom: 20px;
+    }
+  }
+  &__btn {
+    height: 60px;
+    border-radius: 60px;
+    background: #37d259;
+    // padding: 23px 40px;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    width: 460px;
+    text-align: center;
+    margin-bottom: 33px;
+  }
+  &__info {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    & a {
+      text-decoration-line: underline;
+      color: #fff;
+    }
+  }
+}

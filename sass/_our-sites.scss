@@ -1,0 +1,52 @@
+.our-sites {
+  padding-top: 100px;
+  padding-bottom: 123px;
+  background-color: #f8f8f8;
+  &__title {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 64px; /* 114.286% */
+    margin-bottom: 28px;
+  }
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  &__element {
+    position: relative;
+    width: 360px;
+    height: 190px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-left: 70px;
+  }
+  &__name {
+    color: #8d30b9;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px; /* 125% */
+    margin-bottom: 15px;
+    &::before {
+      content: url("../images/a-logo.png");
+      position: absolute;
+      left: 30px;
+      top: 43px;
+    }
+  }
+  &__descr {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+  }
+}

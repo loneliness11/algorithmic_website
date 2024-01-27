@@ -2,8 +2,7 @@
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container {
@@ -20,7 +19,9 @@ button {
   cursor: pointer;
 }
 
-h2, p {
+h2,
+p,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -29,22 +30,14 @@ h2, p {
   background-color: #f5f5f5;
 }
 .header__head {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding-top: 21px;
 }
 .header__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .header__logo-and-city {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 .header__logo {
@@ -116,8 +109,6 @@ h2, p {
 .nav-menu {
   margin: 0;
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 205px;
   margin-bottom: 106px;
@@ -148,8 +139,6 @@ h2, p {
 }
 
 .header__main-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
 }
@@ -169,31 +158,21 @@ h2, p {
 }
 
 .header__main-wrapper2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   padding-bottom: 110px;
 }
 
 .header__main-button {
   border-radius: 60px;
   background: #37D259;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   min-width: 250px;
   min-height: 70px;
   max-height: 70px;
   padding: 23px 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   color: #FFF;
   text-align: center;
   font-family: Montserrat;
@@ -235,12 +214,8 @@ h2, p {
   margin-bottom: 120px;
 }
 .advantages__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .advantages__title {
   color: #1D1130;
@@ -392,8 +367,6 @@ h2, p {
 }
 
 .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 101px;
   margin-top: 81px;
@@ -455,11 +428,8 @@ h2, p {
 }
 
 .courses__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 17px;
 }
 
@@ -599,8 +569,6 @@ h2, p {
 
 .prices__items {
   margin-bottom: 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 40px;
 }
@@ -636,8 +604,7 @@ h2, p {
   width: 117px;
   height: 30px;
   margin-top: 7px;
-  -webkit-transform: rotate(-10deg);
-          transform: rotate(-10deg);
+  transform: rotate(-10deg);
   color: #fff;
   font-family: Montserrat;
   font-size: 16px;
@@ -713,8 +680,7 @@ h2, p {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   bottom: 60px;
   top: 0px;
 }
@@ -732,8 +698,7 @@ h2, p {
 .prices__swiper .slider-button {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 10;
   width: 80px;
   height: 80px;
@@ -832,8 +797,6 @@ h2, p {
   z-index: 6;
 }
 .teachers-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 31px;
   margin-bottom: 26px;
@@ -952,8 +915,6 @@ h2, p {
 }
 
 .reviews-items {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
@@ -1044,8 +1005,6 @@ h2, p {
 }
 
 .reviews-items2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 240px;
   margin-left: 301px;
@@ -1053,13 +1012,8 @@ h2, p {
 }
 
 .reviews-item2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 .reviews-item2__stars {
   width: 159px;
@@ -1101,23 +1055,16 @@ h2, p {
   margin-bottom: 10px;
 }
 .reviews-item3__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   margin-bottom: 10px;
 }
 .reviews-item3__yandex {
   position: absolute;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   color: #1D1130;
   font-family: Montserrat;
   font-size: 16px;
@@ -1165,11 +1112,8 @@ h2, p {
 }
 
 .reviews-items3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 30px 40px;
 }
 
@@ -1237,43 +1181,141 @@ h2, p {
   font-weight: 500;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
+.classes-row {
+  gap: 20px;
+  display: flex;
 }
 
-td {
-  border: 1px solid black;
-  padding: 20px;
+.classes-col {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.classes-col__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.classes-col__btn {
+  border-radius: 60px;
+  border: 2px solid #8d30b9;
+  background: #8d30b9;
+  width: 300px;
+  height: 70px;
+  padding: 15px 30px;
+  color: #fff;
   text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.span-2-rows {
-  vertical-align: top;
-  rowspan: 2;
+.our-sites {
+  padding-top: 100px;
+  padding-bottom: 123px;
+  background-color: #f8f8f8;
+}
+.our-sites__title {
+  color: #1d1130;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 64px; /* 114.286% */
+  margin-bottom: 28px;
+}
+.our-sites-block {
+  display: flex;
+  justify-content: space-between;
+}
+.our-sites-block__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.our-sites__element {
+  position: relative;
+  width: 360px;
+  height: 190px;
+  background-color: #fff;
+  border-radius: 25px;
+  padding-top: 40px;
+  padding-left: 70px;
+}
+.our-sites__name {
+  color: #8d30b9;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px; /* 125% */
+  margin-bottom: 15px;
+}
+.our-sites__name::before {
+  content: url("../images/a-logo.png");
+  position: absolute;
+  left: 30px;
+  top: 43px;
+}
+.our-sites__descr {
+  color: #1d1130;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
 }
 
-.span-2-columns {
-  horizontal-align: center;
-  colspan: 2;
+.choose-course {
+  background-image: url("../images/choouse-group.png");
+  padding-top: 103px;
+  padding-bottom: 96px;
 }
-
-.span-3-columns {
-  horizontal-align: center;
-  colspan: 3;
+.choose-course__title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 76px; /* 115.152% */
+  margin-bottom: 57px;
 }
-
-.span-4-columns {
-  horizontal-align: center;
-  colspan: 4;
+.choose-course__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-
-.span-2-3-columns {
-  horizontal-align: center;
-  colspan: 2;
+.choose-course__form {
+  width: 460px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  color: #939393;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 30px;
 }
-
-.span-2-3-4-columns {
-  horizontal-align: center;
-  colspan: 3;
+.choose-course__form:nth-child(1) {
+  margin-bottom: 20px;
+}
+.choose-course__btn {
+  height: 60px;
+  border-radius: 60px;
+  background: #37d259;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  width: 460px;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.choose-course__info {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+}
+.choose-course__info a {
+  text-decoration-line: underline;
+  color: #fff;
 }/*# sourceMappingURL=general.css.map */

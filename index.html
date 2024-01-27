@@ -671,30 +671,113 @@
             Университетская, 9
           </button>
         </div>
-        <table>
-          <tr>
-            <td>1</td>
-            <td class="span-2-columns">2</td>
-            <td class="span-3-columns">3</td>
-            <td class="span-4-columns">4</td>
-          </tr>
-          <tr>
-            <td rowspan="2" class="span-2-rows">5</td>
-            <td class="span-2-3-columns">5</td>
-            <td rowspan="2" class="span-2-rows">6</td>
-          </tr>
-          <tr>
-            <td class="span-4-columns">6</td>
-          </tr>
-          <tr>
-            <td class="span-2-rows">7</td>
-            <td colspan="2" class="span-3-columns">8</td>
-            <td class="span-4-columns">9</td>
-          </tr>
-          <tr>
-            <td class="span-2-rows">10</td>
-          </tr>
-        </table>
+        <div class="classes-row">
+          <div class="classes-col">
+            <img
+              src="images/classes-row1.png"
+              alt=""
+              class="classes-col__img"
+            />
+            <img
+              src="images/classes-row7.png"
+              alt=""
+              class="classes-col__img img7"
+            />
+          </div>
+          <div class="classes-col">
+            <div class="classes-col__wrapper">
+              <img
+                src="images/classes-row2.png"
+                alt=""
+                class="classes-col__img"
+              />
+              <img
+                src="images/classes-row3.png"
+                alt=""
+                class="classes-col__img"
+              />
+            </div>
+            <img src="images/classes-row5.png" alt="" class="classe-col__img" />
+            <div class="classes-col__wrapper">
+              <img
+                src="images/classes-row8.png"
+                alt=""
+                class="classes-col__img"
+              />
+              <img
+                src="images/classes-row9.png"
+                alt=""
+                class="classes-col__img"
+              />
+            </div>
+          </div>
+          <div class="classes-col">
+            <img
+              src="images/classes-row4.png"
+              alt=""
+              class="classes-col__img"
+            />
+            <img
+              src="images/classes-row6.png"
+              alt=""
+              class="classes-col__img"
+            />
+            <button class="classes-col__btn">Хотим у вас учиться</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-sites">
+      <div class="container">
+        <h2 class="our-sites__title">Наши площадки</h2>
+        <div class="our-sites-block">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A8f9ff888f2cf2a7423643241a61b0f0567c28732c020882536e9c1fceb602729&amp;source=constructor"
+            width="774"
+            height="400"
+            frameborder="0"
+          ></iframe>
+          <div class="our-sites-block__wrapper">
+            <div class="our-sites__element">
+              <h3 class="our-sites__name">Площадка Новин</h3>
+              <p class="our-sites__descr">ул. Игоря Киртбая, д 28</p>
+            </div>
+            <div class="our-sites__element">
+              <h3 class="our-sites__name">Университетская, 9</h3>
+              <p class="our-sites__descr">
+                ул. Университетская, 9, 3 этаж, офис 21
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="choose-course">
+      <div class="container">
+        <h2 class="choose-course__title">
+          Поможем с выбором <br />
+          курса онлайн
+        </h2>
+        <div class="choose-course__wrapper">
+          <input
+            type="text"
+            placeholder="Имя родителя"
+            class="choose-course__form"
+          />
+          <input
+            type="number"
+            placeholder="Ваш телефон"
+            class="choose-course__form"
+          />
+        </div>
+        <button class="choose-course__btn">Записаться</button>
+        <div class="choose-course__info">
+          Нажимая на кнопку вы соглашаетесь c
+          <a href="#"
+            >положением о защите <br />
+            персональных данных</a
+          >
+        </div>
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
