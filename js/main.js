@@ -66,3 +66,27 @@ function toggleButton(buttonId) {
     otherButton.classList.add("inactive-button");
   }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const circles = document.querySelectorAll(".questions__circle");
+
+  circles.forEach((circle) => {
+    circle.addEventListener("click", function () {
+      const item = circle.closest(".questions__item");
+      const text = item.querySelector(".questions__text");
+
+      // Поворот изображения на 45 градусов при каждом клике
+      circle.style.transform = circle.style.transform ? "" : "rotate(45deg)";
+
+      if (item.classList.contains("expanded")) {
+        item.style.height = "100px";
+        item.classList.remove("expanded");
+        text.style.display = "none";
+      } else {
+        item.style.height = "160px";
+        item.classList.add("expanded");
+        text.style.display = "block";
+      }
+    });
+  });
+});

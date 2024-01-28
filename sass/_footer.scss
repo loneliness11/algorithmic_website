@@ -1,0 +1,124 @@
+.container {
+  position: relative;
+}
+.footer {
+  padding-bottom: 44px;
+  background-color: #f8f8f8;
+  &__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  &__wrapper {
+    padding-top: 59px;
+    margin-left: 400px;
+  }
+  &__wrapper2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__wrapper3 {
+    display: flex;
+    align-items: center;
+  }
+  &__tg {
+    margin-right: 19px;
+  }
+  &__whatsap {
+    margin-right: 17px;
+  }
+  &__number {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  &__user {
+    position: relative;
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__wrapper4 {
+    display: flex;
+    align-items: center;
+  }
+  &__skolkovo {
+    margin-right: 16px;
+  }
+  &__descr {
+    margin-left: 400px;
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 29px;
+  }
+  &__title {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  &__descr2 {
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    margin-right: 127px;
+    color: #1d1130;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    &__name {
+      text-decoration: none;
+      color: #1d1130;
+      &:nth-child(1),
+      &:nth-child(2) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__wrapper5 {
+    display: flex;
+    margin-bottom: 34px;
+  }
+  &__wrapper6 {
+    margin-right: 40px;
+  }
+  &__line {
+    height: 1px;
+    background: #d8d8d8;
+    margin-bottom: 35px;
+  }
+  &-last {
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+      display: flex;
+    }
+    &__name {
+      color: #1d1130;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      &:nth-child(1) {
+        margin-right: 214px;
+      }
+    }
+  }
+}
+.spacer {
+  margin-bottom: 6px;
+}
