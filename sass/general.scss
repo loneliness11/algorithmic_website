@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .container {
-  width: 1160px;
+  max-width: 1160px;
   margin: 0 auto;
 }
 ::-webkit-scrollbar {
@@ -34,3 +34,4 @@ h3 {
 @import "questions";
 @import "footer";
 @import "modal";
+@import "media";

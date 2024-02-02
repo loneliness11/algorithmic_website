@@ -1,23 +1,23 @@
 .bg-modal {
   display: none;
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 1250%;
+  height: 100%;
   background: hsl(263, 48%, 13%, 0.6);
-  padding-top: 140px;
-  padding-bottom: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   top: 0;
   z-index: 10;
 }
 .modal {
   position: relative;
   background-color: #fff;
-  padding-top: 159px;
+  padding-top: 30px;
   padding-left: 95px;
   padding-right: 95px;
   padding-bottom: 63px;
   width: 760px;
-  height: 1120px;
+  height: 900px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 10px;
@@ -40,28 +40,28 @@
     font-size: 56px;
     font-weight: 600;
     line-height: 66px; /* 117.857% */
-    margin-bottom: 19px;
+    margin-bottom: 10px;
   }
   &__subtitle {
     color: #1d1130;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 46px;
+    margin-bottom: 15px;
   }
   &__p {
     color: #0f1c2c;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   &__learn {
     color: #1d1130;
     font-family: Montserrat;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 28px;
+    margin-bottom: 15px;
   }
   &__items {
     margin-left: 42px;
@@ -72,7 +72,7 @@
       margin-bottom: 35px;
     }
     & > :last-child {
-      margin-bottom: 58px;
+      margin-bottom: 20px;
     }
   }
   &__item {

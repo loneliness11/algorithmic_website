@@ -1,0 +1,366 @@
+// header
+@media (max-width: 1200px) {
+  .header {
+    padding-left: 54px;
+    &__title {
+      line-height: 61px;
+    }
+  }
+  .student {
+    width: 68%;
+    top: 42px;
+    right: -20px;
+  }
+}
+@media (max-width: 991px) {
+  .student {
+    display: none;
+  }
+  .header {
+    &__head {
+      justify-content: initial;
+    }
+    &__city {
+      margin-right: 47px;
+    }
+    &__title {
+      font-size: 38px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    &__logo {
+      width: 136px;
+    }
+    &__city {
+      margin-right: 21px;
+      margin-left: -23px;
+    }
+    &__title {
+      margin-top: -55px;
+    }
+  }
+  .nav-menu {
+    margin-left: 34px;
+    margin-top: -9px;
+  }
+  .nav-item a {
+    margin-right: 43px;
+  }
+  .four-photo {
+    height: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    position: relative;
+    padding-top: 171px;
+    &__head {
+      display: none;
+    }
+  }
+  .nav-menu {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .header-mini-img {
+    display: block;
+    position: absolute;
+    top: -90px;
+    left: 160px;
+  }
+  .header-lk {
+    position: absolute;
+    right: 54px;
+    top: -100px;
+    cursor: pointer;
+  }
+}
+// advantages
+@media (max-width: 991px) {
+  .advantages {
+    &__items {
+      display: grid;
+      grid-template-rows: 1fr 1fr; /* Две строки с автоматической высотой */
+      grid-template-columns: 1fr 1fr; /* Два столбца с автоматической шириной */
+      gap: 15px;
+      justify-items: center;
+    }
+    &__item {
+    }
+  }
+}
+
+// about-school
+@media (max-width: 991px) {
+  .about-school {
+    &__bg {
+      width: 86%;
+    }
+  }
+  .card1 {
+    margin-left: 615px;
+  }
+  .card2 {
+    margin-left: 235px;
+  }
+  .card3 {
+    margin-left: 441px;
+  }
+  .cards {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .about-school {
+    max-width: 767px;
+  }
+  .card1 {
+    margin-left: 364px;
+  }
+  .card2 {
+    margin-left: 76px;
+  }
+  .card3 {
+    margin-left: 364px;
+  }
+  .cards {
+    margin-bottom: 40px;
+    margin-left: 0;
+  }
+}
+// courses
+@media (max-width: 991px) {
+  .courses {
+    &__title {
+      margin-top: 200px;
+      text-align: start;
+      padding-left: 30px;
+    }
+    &__subtitle {
+      text-align: start;
+      margin-bottom: 20px;
+      padding-left: 30px;
+    }
+    // &__items {
+    //   display: grid;
+    //   grid-template-columns: 1fr 1fr;
+    // }
+    &__item {
+      width: 331px;
+    }
+    &__items {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+// prices
+@media (max-width: 991px) {
+  .prices {
+    &__items {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-items: center;
+    }
+    &__swiper {
+      width: 100%;
+      margin-left: revert-layer;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+  }
+}
+
+// teachers
+@media (max-width: 991px) {
+  .teachers {
+    &-wrapper {
+      width: 480px;
+      padding-left: 207px;
+    }
+  }
+  .teachers1-icon::after {
+    left: 343px;
+  }
+  .teachers2-icon::after {
+    left: 379px;
+  }
+  .slider2-button-prev {
+    right: 110px !important;
+  }
+  .slider2-button-next {
+    right: 10px !important;
+  }
+}
+@media (max-width: 767px) {
+  .teachers {
+    &-items {
+      justify-content: center;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+  .teachers__swiper .slider2-button {
+    bottom: -2px;
+    top: auto;
+  }
+  .teachers2 {
+    display: none;
+  }
+}
+// reviews
+@media (max-width: 991px) {
+  .reviews {
+    &-items {
+      gap: 60px;
+      justify-content: center;
+    }
+    &-items3 {
+      flex-direction: column;
+      align-items: center;
+    }
+    &-items2 {
+      margin-left: 0;
+      justify-content: center;
+    }
+  }
+  .slider3-button-prev {
+    right: 110px !important;
+  }
+  .slider3-button-next {
+    right: 10px !important;
+  }
+  .reviews-item-4 {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .reviews {
+    &__title {
+      font-size: 40px;
+    }
+  }
+  .reviews-item-3 {
+    display: none;
+  }
+}
+// classes
+
+@media (max-width: 991px) {
+  .classes {
+    &-row {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-col-3 {
+      display: flex;
+      flex-direction: row !important;
+    }
+    &-col__btn {
+      width: 203px;
+      align-self: flex-end;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__podlozka {
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .classes {
+    &-col-1 {
+      display: flex;
+      flex-direction: row;
+    }
+    &-col-3 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-col__btn {
+      align-self: center;
+    }
+    &-col__img-1 {
+      height: 253px;
+    }
+  }
+}
+
+// our-sites
+
+@media (max-width: 991px) {
+  .our-sites {
+    &__title {
+      text-align: center;
+    }
+  }
+}
+
+// choose-course
+
+@media (max-width: 991px) {
+  .choose-course {
+    padding-left: 50px;
+    &__title {
+      text-align: center;
+    }
+    &__wrapper {
+      align-items: center;
+    }
+    &-btn__wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    &__info {
+      text-align: center;
+    }
+  }
+}
+
+// questions
+
+@media (max-width: 991px) {
+  .questions {
+    &__title {
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .questions__item {
+    font-size: 22px;
+  }
+}
+
+// footer
+
+@media (max-width: 767px) {
+  .footer {
+    &__wrapper {
+      margin-left: 242px;
+    }
+    &__number {
+      font-size: 26px;
+    }
+    &__descr {
+      margin-left: 242px;
+    }
+    &__wrapper5 {
+      padding-left: 30px;
+    }
+    &-last {
+      padding-left: 30px;
+    }
+  }
+}

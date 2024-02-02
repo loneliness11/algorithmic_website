@@ -1,9 +1,9 @@
-.header{
+.header {
   background-color: #f5f5f5;
-  &__head { 
-  display: flex;
-  justify-content: space-between;
-  padding-top: 21px;
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
   }
   &__wrapper {
     display: flex;
@@ -18,21 +18,21 @@
   }
   &__city {
     position: relative;
-    color: #1D1130;
+    color: #1d1130;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
   }
   &__city::before {
-    content: url('../images/Logo-short.svg');
+    content: url("../images/Logo-short.svg");
     position: absolute;
     left: -30px;
     top: -3px;
   }
   &__button {
     position: relative;
-    color: #FFF;
+    color: #fff;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
@@ -42,21 +42,21 @@
     padding: 13px;
     padding-left: 40px;
     border-radius: 60px;
-    border: 2px solid #8D30B9;
-    background: #8D30B9;
+    border: 2px solid #8d30b9;
+    background: #8d30b9;
     margin-top: -14px;
     margin-left: 25px;
     cursor: pointer;
     z-index: 1;
   }
   &__button::before {
-    content: url('../images/User.png');
+    content: url("../images/User.png");
     position: absolute;
     left: 20px;
     top: 12px;
   }
   &__number {
-    color: #1D1130;
+    color: #1d1130;
     font-family: Montserrat;
     font-size: 16px;
     font-style: normal;
@@ -65,7 +65,8 @@
     margin-top: -1px;
   }
 }
-.telegram, .whatsapp {
+.telegram,
+.whatsapp {
   width: 24px;
   height: 24px;
   cursor: pointer;
@@ -85,7 +86,7 @@
 }
 .nav-item a {
   text-decoration: none;
-  color: #1D1130;
+  color: #1d1130;
   font-family: Montserrat;
   font-size: 16px;
   font-style: normal;
@@ -93,7 +94,7 @@
   margin-right: 52px;
 }
 .header__title {
-  color: #1D1130;
+  color: #1d1130;
   font-family: Montserrat;
   font-size: 74px;
   font-style: normal;
@@ -108,7 +109,7 @@
   margin-bottom: 50px;
 }
 .header__main-descr {
-  color: #1D1130;
+  color: #1d1130;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -126,7 +127,7 @@
 }
 .header__main-button {
   border-radius: 60px;
-  background: #37D259;
+  background: #37d259;
   display: inline-flex;
   min-width: 250px;
   min-height: 70px;
@@ -134,7 +135,7 @@
   padding: 23px 40px;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: Montserrat;
   font-size: 20px;
@@ -146,7 +147,7 @@
 .header__main-descr2 {
   position: relative;
   width: 230px;
-  color: #1D1130;
+  color: #1d1130;
   font-family: Montserrat;
   font-size: 14px;
   font-style: normal;
@@ -154,16 +155,53 @@
   line-height: 24px; /* 171.429% */
 }
 .header__main-descr2::before {
-  content: url('../images/хуеботина.png');
+  content: url("../images/хуеботина.png");
   position: absolute;
   top: -50px;
   left: -196px;
   pointer-events: none;
 }
 .student {
-// 380
+  // 380
   position: absolute;
-  top: -167px; 
+  top: -167px;
   right: -380px;
   pointer-events: none;
+}
+.burger-menu {
+  position: absolute;
+  width: 50px; /* Регулируйте размер меню по вашему усмотрению */
+  height: 50px; /* Регулируйте размер меню по вашему усмотрению */
+  top: -100px;
+  left: 0;
+  display: none;
+}
+
+.circle {
+  position: absolute;
+  background-color: #8d30b9;
+  border-radius: 60px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.lines {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px; /* Регулируйте ширину полосок по вашему усмотрению */
+}
+
+.line {
+  background-color: #fff;
+  height: 3px; /* Регулируйте высоту полосок по вашему усмотрению */
+  margin-bottom: 5px; /* Регулируйте расстояние между полосками по вашему усмотрению */
+}
+.line:last-child {
+  margin-bottom: 0; /* Убираем отступ у последней линии */
+}
+.header-mini-img {
+  display: none;
 }

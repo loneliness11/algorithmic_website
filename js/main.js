@@ -90,3 +90,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+$("[data-modal=popup").on("click", function () {
+  $(".bg-modal, #popup").fadeIn();
+});
+$(".modal__close").on("click", function () {
+  $(".bg-modal, #popup").fadeOut("slow");
+});
