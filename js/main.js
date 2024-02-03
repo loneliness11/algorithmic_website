@@ -96,3 +96,10 @@ $("[data-modal=popup").on("click", function () {
 $(".modal__close").on("click", function () {
   $(".bg-modal, #popup").fadeOut("slow");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("burger").addEventListener("click", function () {
+    document.querySelector(".header-kk").classList.toggle("open");
+    document.querySelector(".nav-menu").classList.toggle("open");
+  });
+});
